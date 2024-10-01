@@ -1,10 +1,13 @@
+import React from "react";
 import { Button } from "ui";
 
-export default function Web() {
+function page() {
   return (
     <div>
-      <h1>Web</h1>
+      Page test
       <Button />
     </div>
   );
 }
+
+export default page;
